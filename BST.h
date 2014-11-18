@@ -1,9 +1,8 @@
 #pragma once
-#include "BSTInterface.h"
 #include "Node.h"
 using namespace std;
 
-class BST : public BSTInterface {
+class BST {
 private:
 	Node* root;
 	
